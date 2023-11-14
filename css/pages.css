@@ -1,0 +1,167 @@
+@font-face {
+    font-family: GLAMOROUS;
+    src: url(../Fonts/GLAMOROUS\ TRIAL.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.05rem;
+}
+
+.space{
+    height: 5vh;
+    width: 100vw;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(14, 69, 166);
+    width: 100vw;
+    display: flex;
+}
+nav{
+    width: 100vw;
+    display: flex;
+    & ul{
+        display: flex;
+    }
+
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ba h1 {
+    width: 100vw;
+    text-align: center;
+}
+
+.parag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 5vh 10vw;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.2rem;
+}
+
+.sep {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#imagem {
+    width: 80vw;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.div-sep {
+    margin-top: 15px;
+    width: max(40vw, 550px);
+
+    & li {
+        width: max(35vw, 400px);
+        margin-top: 40px;
+    }
+}
+
+.sep-div {
+    display: flex;
+
+    & h2 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+}
+
+#vd {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sep-vd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.VD {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.VD > .li-d {
+
+    text-align: justify;
+}
+
+
+.div-inova{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.inova {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: justify;
+    font-weight: bold;
+    & ul {
+        font-weight: normal;
+        margin-left: px;
+        margin-top: 10px;
+    }
+}
+
+.inova ul > li {
+    font-size: 1rem;
+    width: max(50vw, 400px);
+    margin-bottom: 10px;
+    
+
+}
+
+#titulo{
+    margin-top: 60px;
+    font-size: 1.3rem;
+    font-family: GLAMOROUS;
+    text-align: center;
+}
+
+#sub-titulo {
+    font-size: 1.2rem;
+    font-family: GLAMOROUS;
+    width: 100%;
+    padding: 0% 8%;
+    text-align: center;
+    margin-top: 30px;
+}

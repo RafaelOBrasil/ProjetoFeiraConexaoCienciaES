@@ -1,0 +1,91 @@
+main *{
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: max(75vh);
+}
+
+.sec1{
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.sec1 > img{
+
+    width: max(20vw, 250px);
+    }
+
+.titulo{
+    margin-top: 30px;
+    font-size: max(15pt, 2vw);
+    text-transform: uppercase;
+}
+
+.saiba_mais{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+}
+.saiba_mais > .btn{
+    border: 1px dashed black;
+    width: max(8vw,100px);
+    height: 3vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: -1px 1px 0px black;
+    color: black;
+    text-decoration: none;
+}
+
+.saiba_mais > .btn:hover{
+    border: 1px solid black;
+}
+
+.animeImage{
+    width: 400px;
+}
+
+.animeImage{
+
+    background-image: url(../images/Design\ sem\ nome.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+}
+
+.animeImage > img{
+    width: 400px;
+    animation: rotate 60s linear infinite;
+    transition: .5s;
+}
+
+@keyframes rotate{
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+.animeImage:hover > img{
+    scale: 1.1;
+    transition: .5s;
+}
